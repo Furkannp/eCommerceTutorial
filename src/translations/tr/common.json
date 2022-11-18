@@ -1,0 +1,96 @@
+{
+  "sidebar": {
+    "cart": "Sepet",
+    "products": "Ürünler",
+    "addNewProduct": "Yeni Ürün Ekle"
+  },
+  "home": {
+    "ascending": "Artan",
+    "decreasing": "Azalan",
+    "change": "Değiştir",
+    "sorting": "Sıralanıyor",
+    "productsTable": {
+      "title": "Ürünler",
+      "columns": {
+        "no": "No",
+        "image": "Görsel",
+        "title": "Başlık",
+        "category": "Kategori",
+        "price": "Birim Fiyat"
+      }
+    }
+  },
+  "categories": {
+    "title": "KATEGORİLER",
+    "allProducts": "Tüm Ürünler"
+  },
+  "table": {
+    "labelRowsSelect": "Satır",
+    "nextTooltip": "Sonraki",
+    "previousTooltip": "Önceki",
+    "firstTooltip": "İlk",
+    "lastTooltip": "Son",
+    "labelDisplayedRows": "{count} sonuçtan {from}-{to} arası",
+    "labelRowsPerPage": "Sayfa Başına Satır",
+    "emptyDataSourceMessage": "Gösterilecek Ürün Yok.",
+    "get5Product": "5 Ürün Getir",
+    "get10Product": "10 Ürün Getir",
+    "get15Product": "15 Ürün Getir",
+    "getAllProduct": "Tüm Ürünleri Getir"
+  },
+  "productDetail": {
+    "description": "Açıklama",
+    "deleteProduct": "Ürünü Sil",
+    "updateProduct": "Ürünü Güncelle"
+  },
+  "addNew": {
+    "title": "Ürün Başlığı",
+    "price": "Birim Fiyat",
+    "description": "Açıklama",
+    "image": "Ürün Linki",
+    "category": "Kategori",
+    "save": "Kaydet"
+  },
+  "cart": {
+    "title": "Ürün Başlığı",
+    "cartTable": {
+      "title": "Sepetteki Ürünler",
+      "removeAllFromCart": "Sepeti Sıfırla",
+      "columns": {
+        "no": "No",
+        "image": "Görsel",
+        "title": "Başlık",
+        "category": "Kategori",
+        "price": "Birim Fiyat",
+        "quantity": "Miktar",
+        "totalAmount": "Toplam Fiyat",
+        "actions": "Sepet İşlemleri"
+      }
+    },
+    "total": "Toplam",
+    "emtyCart": "Sepetiniz Boş. Ürünlere Göz Atın",
+    "goPayment": "Ödemeye Geç"
+  },
+  "payment": {
+    "form": {
+      "personalInfo": "Kişisel Bilgiler",
+      "cardInfo": "Kart Bilgileri",
+      "addressInfo": "Adres Bilgileri",
+      "fields": {
+        "name": "İsim",
+        "surname": "Soyisim",
+        "email": "E-Posta",
+        "country": "Ülke",
+        "city": "Şehir",
+        "county": "Miktar",
+        "fullAddress": "Adres",
+        "cardNumber": "Kart Numarası",
+        "cardOwner": "Kartın Üzerindeki İsim Soyisim",
+        "cvc": "Güvenlik Kodu",
+        "validDate": "Geçerlilik Tarihi"
+      }
+    },
+    "total": "Toplam",
+    "pay": "Öde"
+  }
+}

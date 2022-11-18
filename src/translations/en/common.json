@@ -1,0 +1,96 @@
+{
+  "sidebar": {
+    "cart": "Cart",
+    "products": "Products",
+    "addNewProduct": "Add New Products"
+  },
+  "home": {
+    "ascending": "Ascending",
+    "decreasing": "Decreasing",
+    "change": "Change",
+    "sorting": "Sorting",
+    "productsTable": {
+      "title": "Products",
+      "columns": {
+        "no": "No",
+        "image": "Image",
+        "title": "Title",
+        "category": "Category",
+        "price": "Price"
+      }
+    }
+  },
+  "categories": {
+    "title": "CATEGORIES",
+    "allProducts": "All Categories"
+  },
+  "table": {
+    "labelRowsSelect": "rows",
+    "nextTooltip": "Next",
+    "previousTooltip": "Previous",
+    "firstTooltip": "First",
+    "lastTooltip": "Last",
+    "labelDisplayedRows": "{from}-{to} of {count}",
+    "labelRowsPerPage": "Rows Per Page",
+    "emptyDataSourceMessage": "No products to display",
+    "get5Product": "Get 5 products",
+    "get10Product": "Get 10 products",
+    "get15Product": "Get 15 products",
+    "getAllProduct": "Get all products"
+  },
+  "productDetail": {
+    "description": "Description",
+    "deleteProduct": "Delete",
+    "updateProduct": "Update"
+  },
+  "addNew": {
+    "title": "Title",
+    "price": "Price",
+    "description": "Description",
+    "image": "Image",
+    "category": "Category",
+    "save": "Save"
+  },
+  "cart": {
+    "title": "Title",
+    "cartTable": {
+      "title": "Products In Cart",
+      "removeAllFromCart": "Remove All From Cart",
+      "columns": {
+        "no": "No",
+        "image": "Image",
+        "title": "Title",
+        "category": "Category",
+        "price": "Price",
+        "quantity": "Quantity",
+        "totalAmount": "Total Amount",
+        "actions": "Actions"
+      }
+    },
+    "total": "Total",
+    "emtyCart": "Cart is empty. Look at products",
+    "goPayment": "Go Payment"
+  },
+  "payment": {
+    "form": {
+      "personalInfo": "Personal Info",
+      "cardInfo": "Card Info",
+      "addressInfo": "Address Info",
+      "fields": {
+        "name": "Name",
+        "surname": "Surname",
+        "email": "E-Mail",
+        "country": "Country",
+        "city": "City",
+        "county": "County",
+        "fullAddress": "Full Address",
+        "cardNumber": "Card Number",
+        "cardOwner": "Name Surname",
+        "cvc": "CVC",
+        "validDate": "Valid Date"
+      }
+    },
+    "total": "Total",
+    "pay": "Pay"
+  }
+}

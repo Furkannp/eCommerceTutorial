@@ -1,0 +1,123 @@
+.modal_close_btn {
+  position: absolute !important;
+  top: 15px;
+  right: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.row {
+  margin: 0
+}
+
+
+.loginput {
+  width: 100%;
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.cardInput {
+  width: 100%;
+  background-color: #fff;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  border: 2px solid #007c8540;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.loginput:focus {
+  background-color: #007c8540;
+  border-bottom: 2px solid #007c8540;
+}
+
+.login_btn {
+  width: 100%;
+  background-color: #007c85;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: 2px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #fff;
+  background-color: #008564;
+}
+
+.underlineHover:hover:after {
+  width: 100%;
+}
+.inputError{
+    color: red;
+}
+.categoryBtn{
+  background: rgb(222, 243, 250);
+  border: 1px solid rgb(222, 243, 250);
+  color: black;
+  width: 100%;
+}
+.categoryBtn:hover, .categoryBtn:active, .categoryBtn:focus {
+  background: rgb(189, 239, 255);
+  border: 1px solid rgb(222, 243, 250);
+  color: black;
+  width: 100%;
+}
+.MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows{
+  margin: 0;
+}
+.MuiFormControl-root{
+  width: 100%;
+}

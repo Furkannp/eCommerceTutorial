@@ -1,0 +1,46 @@
+
+
+body, .App{
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.layout {
+  height: 100%;
+    .topbar {
+        position: fixed;
+        width: 100%;
+        height: $topbar-height;
+        background-color: $topbar-bg;
+        z-index: 99;
+       
+      }
+        .sidebar {
+          position: fixed;
+          width: $sidebar-width;
+          height: calc(100% - #{$topbar-height} - 2rem);
+          background-color: $sidebar-bg;
+          margin:$topbar-height + 16px 1rem  1rem 1rem;
+          border-radius: $content-radius;
+          padding: 2rem 1rem;
+        }
+        .mainContainer{
+          padding-left: $sidebar-width + 32;
+          padding-top: $topbar-height + 16;
+      
+      
+          &>div{
+            background-color: $content-bg;
+            border-radius: $content-radius;
+            padding: 1rem;
+            width: calc(100% - 1rem);
+      
+          }
+      
+         }
+     
+  }
+ 
+  
